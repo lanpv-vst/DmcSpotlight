@@ -1,0 +1,30 @@
+body {
+  font-family: system-ui, -apple-system;
+  background: #111;
+  color: #fff;
+  padding: 12px;
+}
+
+#search {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.result {
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.result.active {
+  background: #333;
+}
+
+.type {
+  opacity: 0.6;
+  font-size: 12px;
+}

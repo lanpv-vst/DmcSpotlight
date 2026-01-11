@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "DMDC Spotlight v1.0",
+    "version": "1.0",
+    "description": "Tra cứu MLNS, kho bạc, ngân hàng...",
+    "permissions": ["sidePanel", "clipboardWrite"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_title": "VN Code Spotlight"
+    },
+    "side_panel": {
+      "default_path": "panel.html"
+    }
+  }
+  
